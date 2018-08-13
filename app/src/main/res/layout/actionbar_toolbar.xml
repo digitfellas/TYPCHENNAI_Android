@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/ga_ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding_forty_eight"
+        android:layout_gravity="center_vertical"
+        android:background="@color/app_red_color"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/padding_forty_eight"
+        app:contentInsetStart="@dimen/padding_zero"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ActionBarMaterialTheme">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/action_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/padding_five"
+                android:padding="@dimen/padding_five"
+                android:src="@drawable/ic_back"
+                android:visibility="visible" />
+
+            <com.digitfellas.typchennai.common.customtextview.LatoBoldTextview
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/padding_ten"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_sixteen"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/iv_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding_five"
+                android:layout_toRightOf="@+id/toolbar_title"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_right_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding_five"
+                android:padding="@dimen/padding_fifteen"
+                android:visibility="gone" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+</RelativeLayout>

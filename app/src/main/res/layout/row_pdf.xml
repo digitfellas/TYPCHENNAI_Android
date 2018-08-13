@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/padding_ten">
+
+    <com.digitfellas.typchennai.common.customtextview.LatoRegularTextview
+        android:id="@+id/tv_pdf_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_ten"
+        android:textColor="@color/light_black"
+        android:textSize="@dimen/sp_thirteen" />
+
+</android.support.v7.widget.CardView>

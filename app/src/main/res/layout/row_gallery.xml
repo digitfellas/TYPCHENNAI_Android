@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_five"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.digitfellas.typchennai.common.customtextview.LatoRegularTextview
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_twelve" />
+
+    <ImageView
+        android:id="@+id/iv_cover_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_ten"
+        android:scaleType="fitXY" />
+
+    <com.digitfellas.typchennai.common.customtextview.LatoRegularTextview
+        android:id="@+id/tv_photo_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_five"
+        android:gravity="center"
+        android:textColor="@color/light_black"
+        android:textSize="@dimen/sp_twelve" />
+
+
+</LinearLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.digitfellas.typchennai.common.customtextview.LatoRegularEditText
+        android:id="@+id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_ten"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Search by Name/Surname/Pincode"
+        android:padding="@dimen/padding_ten"
+        android:textColor="@color/light_black"
+        android:textSize="@dimen/sp_twelve" />
+
+    <com.digitfellas.typchennai.common.customtextview.LatoBoldTextview
+        android:id="@+id/tv_advanced_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/et_search"
+        android:layout_gravity="center"
+        android:layout_marginRight="@dimen/padding_ten"
+        android:layout_marginTop="@dimen/padding_ten"
+        android:background="@drawable/button_background"
+        android:paddingBottom="@dimen/padding_ten"
+        android:paddingLeft="@dimen/padding_twenty"
+        android:paddingRight="@dimen/padding_twenty"
+        android:paddingTop="@dimen/padding_ten"
+        android:text="ADVANCED SEARCH"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_fourteen" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_directory_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rg"
+        android:layout_below="@+id/tv_advanced_search"></android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/ll_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <com.digitfellas.typchennai.common.customtextview.LatoRegularTextview
+            android:id="@+id/tv_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/app_red_color"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <RadioButton
+            android:id="@+id/rb_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="@dimen/padding_five"
+            android:text="Name"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/rb_surname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="@dimen/padding_five"
+            android:text="Surname"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/rb_native"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="@dimen/padding_five"
+            android:text="Native"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/rb_pin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="@dimen/padding_five"
+            android:text="Pin"
+            android:textColor="@color/white" />
+
+    </RadioGroup>
+
+</RelativeLayout>

@@ -1,0 +1,120 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="padding_fifty">50dp</dimen>
+    <dimen name="padding_fourty">40dp</dimen>
+    <dimen name="padding_thirty">30dp</dimen>
+    <dimen name="padding_twenty">20dp</dimen>
+    <dimen name="padding_twentyone">21dp</dimen>
+    <dimen name="padding_twenty_three">23dp</dimen>
+    <dimen name="padding_eighteen">18dp</dimen>
+    <dimen name="padding_ten">10dp</dimen>
+    <dimen name="padding_eleven">11dp</dimen>
+    <dimen name="padding_five">5dp</dimen>
+    <dimen name="padding_six">6dp</dimen>
+    <dimen name="padding_zero">0dp</dimen>
+    <dimen name="padding_three">3dp</dimen>
+    <dimen name="padding_twenty_six">26dp</dimen>
+    <dimen name="padding_sixty">60dp</dimen>
+    <dimen name="padding_twelve">12dp</dimen>
+    <dimen name="paddinng_thirteen">13dp</dimen>
+    <dimen name="padding_fourtytwo">42dp</dimen>
+    <dimen name="padding_hundred">100dp</dimen>
+    <dimen name="padding_hundred_and_five">105dp</dimen>
+    <dimen name="padding_eightyfour">84dp</dimen>
+    <dimen name="padding_eightytwo">82dp</dimen>
+    <dimen name="padding_twentyfive">25dp</dimen>
+    <dimen name="padding_thirty_two">32dp</dimen>
+    <dimen name="padding_thirty_four">34dp</dimen>
+    <dimen name="padding_eighty">80dp</dimen>
+    <dimen name="paddinng_fifteen">15dp</dimen>
+    <dimen name="padding_thirty_six">36dp</dimen>
+    <dimen name="padding_sixteen">16dp</dimen>
+    <dimen name="padding_eight">8dp</dimen>
+    <dimen name="padding_sixty_two">62dp</dimen>
+    <dimen name="padding_twenty_seven">27dp</dimen>
+    <dimen name="padding_seventeen">17dp</dimen>
+    <dimen name="padding_seventeen_point_five">17dp</dimen>
+    <dimen name="paddinng_twelve">12dp</dimen>
+    <dimen name="padding_seventysix">76dp</dimen>
+    <dimen name="padding_sixtysevevn">67dp</dimen>
+    <dimen name="padding_onetwentyfour">124dp</dimen>
+    <dimen name="padding_twentytwo">22dp</dimen>
+    <dimen name="eightysixdp">86dp</dimen>
+    <dimen name="one_twenty_eight">128dp</dimen>
+    <dimen name="padding_nine">9dp</dimen>
+    <dimen name="padding_onetwentysix">126dp</dimen>
+    <dimen name="padding_onethirtyeight">138dp</dimen>
+    <dimen name="padding_twoninetytwo">292dp</dimen>
+    <dimen name="padding_oneeightyfive">185dp</dimen>
+    <dimen name="padding_ninetyfour">94dp</dimen>
+    <dimen name="padding_fifteen">15dp</dimen>
+    <dimen name="fifteenplus">15.5dp</dimen>
+    <dimen name="padding_thirteen">13dp</dimen>
+    <dimen name="padding_one">1dp</dimen>
+    <dimen name="padding_fourteen">14dp</dimen>
+    <!-- padding plus values -->
+    <dimen name="padding_sixplus">6.5dp</dimen>
+    <dimen name="padding_eight_point_five">8.5dp</dimen>
+    <dimen name="padding_sixteenplpus">16.5dp</dimen>
+    <dimen name="fourtyoneplus">41.5dp</dimen>
+    <dimen name="padding_eigteenpint_five">18.5dp</dimen>
+    <dimen name="paddinng_eighteenplus">18.5dp</dimen>
+    <dimen name="padding_twenty_sixplus">26.5dp</dimen>
+    <dimen name="padding_thirtysixplus">36.5dp</dimen>
+    <dimen name="padding_onetwentyfiveplus">125.5dp</dimen>
+    <dimen name="padding_onetwentysixplus">126.5dp</dimen>
+    <dimen name="padding_onetwentysevenplus">127.5dp</dimen>
+    <dimen name="padding_twentyeightplus">28.5dp</dimen>
+    <dimen name="eightysixplusdp">86.5dp</dimen>
+    <dimen name="one_twenty_eightplus">128.5dp</dimen>
+    <dimen name="padding_twenty_seven_point_five">27.5dp</dimen>
+    <dimen name="fourteen_pointfive">14.5dp</dimen>
+    <dimen name="padding_twenty_two_point_five">22.5dp</dimen>
+    <dimen name="paddding_twenty_eight_point_five">28.5dp</dimen>
+    <dimen name="padding_thirtyoneplus">31.5dp</dimen>
+    <dimen name="padding_eightythreeplus">83.5dp</dimen>
+    <dimen name="padding_fourtysevenplus">47.5dp</dimen>
+    <dimen name="padding_fourtyfourplus">44.5dp</dimen>
+    <dimen name="padding_thirtythreeplus">33.5dp</dimen>
+    <dimen name="padding_thirtyeightplus">38.5dp</dimen>
+    <!-- textsize -->
+    <dimen name="sp_ninteen">19sp</dimen>
+    <dimen name="sp_twenty">20sp</dimen>
+    <dimen name="dp_twenty_point_five">25dp</dimen>
+    <dimen name="sp_fourty">40sp</dimen>
+    <dimen name="sp_eighteen">18sp</dimen>
+    <dimen name="sp_thirty">30sp</dimen>
+    <dimen name="sp_sixteen">16sp</dimen>
+    <dimen name="sp_twelve">12sp</dimen>
+    <dimen name="sp_fourteen">14sp</dimen>
+    <dimen name="sp_ten">10sp</dimen>
+    <dimen name="sp_thirteen">13sp</dimen>
+    <dimen name="sp_fourtysix">46sp</dimen>
+    <dimen name="sp_fifteen">15sp</dimen>
+    <dimen name="sp_sixty_five">65sp</dimen>
+    <dimen name="sp_fifty">50sp</dimen>
+    <dimen name="sp_eleven">11sp</dimen>
+    <dimen name="sp_thirty_six">36sp</dimen>
+    <dimen name="sp_twenty_one">21sp</dimen>
+    <dimen name="sp_nineteen">19sp</dimen>
+    <dimen name="sp_three">3sp</dimen>
+
+
+    <dimen name="defaultsize">14sp</dimen>
+    <dimen name="forgetpsaatext">15sp</dimen>
+
+    <dimen name="circle_width">20px</dimen>
+
+
+    <!-- GENERAL -->
+    <dimen name="default_stroke_width">30dp</dimen>
+    <dimen name="default_background_stroke_width">30dp</dimen>
+    <dimen name="padding_forty_eight">48dp</dimen>
+    <dimen name="padding_forty">40dp</dimen>
+    <dimen name="padding_twenty_two">22dp</dimen>
+    <dimen name="padding_two">2dp</dimen>
+    <dimen name="padding_twenty_five">25dp</dimen>
+</resources>

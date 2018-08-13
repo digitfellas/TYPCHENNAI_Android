@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_swipe_view"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/white">
+
+            <com.digitfellas.typchennai.utils.swipeviewpager.ExtendedViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <com.viewpagerindicator.CirclePageIndicator
+                android:id="@+id/indicator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:padding="10dip"
+                app:centered="true"
+                app:fillColor="@color/white"
+                app:pageColor="@color/app_base_color"
+                app:snap="false" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_ten"
+            android:layout_marginRight="@dimen/padding_ten"
+            android:layout_marginTop="@dimen/padding_ten">
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/cv_atdc"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_margin="@dimen/padding_ten"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:elevation="@dimen/padding_five"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/one" />
+
+                    <com.digitfellas.typchennai.common.customtextview.LatoBoldTextview
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="@dimen/padding_five"
+                        android:text="@string/atdc"
+                        android:textColor="@color/app_title_color"
+                        android:textSize="@dimen/sp_thirteen" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/cv_gyanshala"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_margin="@dimen/padding_ten"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:elevation="@dimen/padding_five"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_category_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/two" />
+
+                    <com.digitfellas.typchennai.common.customtextview.LatoBoldTextview
+                        android:id="@+id/grid_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="@dimen/padding_five"
+                        android:text="@string/gyanshala"
+                        android:textColor="@color/app_title_color"
+                        android:textSize="@dimen/sp_thirteen" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_ten"
+            android:layout_marginRight="@dimen/padding_ten"
+            android:layout_marginTop="@dimen/padding_ten">
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/cv_events"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_margin="@dimen/padding_ten"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:elevation="@dimen/padding_five"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/four" />
+
+                    <com.digitfellas.typchennai.common.customtextview.LatoBoldTextview
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="@dimen/padding_five"
+                        android:text="@string/events_updates"
+                        android:textColor="@color/app_title_color"
+                        android:textSize="@dimen/sp_thirteen" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/cv_directory"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_margin="@dimen/padding_ten"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:elevation="@dimen/padding_five"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/eight" />
+
+                    <com.digitfellas.typchennai.common.customtextview.LatoBoldTextview
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="@dimen/padding_five"
+                        android:text="@string/directory"
+                        android:textColor="@color/app_title_color"
+                        android:textSize="@dimen/sp_thirteen" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/padding_ten"
+            android:background="@color/navigation_line_color"></View>
+
+
+        <com.digitfellas.typchennai.common.customtextview.LatoRegularTextview
+            android:id="@+id/tv_send_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_email"
+            android:drawablePadding="@dimen/padding_ten"
+            android:gravity="center_vertical"
+            android:padding="@dimen/padding_ten"
+            android:text="@string/send_us_email"
+            android:textColor="@color/app_title_color" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/navigation_line_color"></View>
+
+
+        <com.digitfellas.typchennai.common.customtextview.LatoRegularTextview
+            android:id="@+id/tv_visit_fb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_fb"
+            android:drawablePadding="@dimen/padding_ten"
+            android:gravity="center_vertical"
+            android:padding="@dimen/padding_ten"
+            android:text="@string/visit_us_facebook"
+            android:textColor="@color/app_title_color" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/navigation_line_color"></View>
+
+
+    </LinearLayout>
+
+</ScrollView>

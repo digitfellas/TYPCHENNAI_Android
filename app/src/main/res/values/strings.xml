@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">TYPChennai</string>
+    <string name="okay">OK</string>
+    <string name="common_error">Error occured, Please try again later.</string>
+
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="password">Password</string>
+    <string name="username">Email</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_password">Please enter password.</string>
+    <string name="register">SIGN UP</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="name">Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="email">Email</string>
+    <string name="enter_name">Please enter name.</string>
+    <string name="enter_mobile_number">Please enter Mobile number</string>
+    <string name="enter_valid_mobile_number">Mobile number should be 10 digits in length.</string>
+    <string name="sign_up_info">Please signup using your mobile number and password</string>
+    <string name="otp_info">If you did not receive OTP SMS due to congestion, please try after sometime</string>
+    <string name="login_l">Login</string>
+    <string name="enter_confirm_password">Please enter confirm password</string>
+    <string name="password_not_match">Password and Confirm Password doesn\'t match.</string>
+    <string name="get_otp">GET OTP</string>
+    <string name="enter_pin">Enter OTP</string>
+    <string name="otp">OTP</string>
+    <string name="resend_code">Resend OTP</string>
+    <string name="verify">VERIFY</string>
+
+    <string name="please_wait">Please wait..</string>
+    <string name="network_error">No Network available. Please try again later</string>
+    <string name="home">Home</string>
+    <string name="about_typ">About TYP</string>
+    <string name="typ_committee">TYP Committee</string>
+    <string name="tn_directory">Tamilnadu Directory</string>
+    <string name="logout">Logout</string>
+    <string name="vibhag">Vibhag</string>
+    <string name="events">Events &amp; Announcements</string>
+    <string name="gallery">Gallery</string>
+    <string name="edownloads">E-Downloads</string>
+    <string name="send_us_email">Send us an Email</string>
+    <string name="visit_us_facebook">Visit us on Facebook</string>
+    <string name="atdc">ATDC</string>
+    <string name="gyanshala">Gyanshala</string>
+    <string name="events_updates">Events &amp; Updates</string>
+    <string name="directory">Directory</string>
+    <string name="search">Search</string>
+    <string name="surname">Surname</string>
+    <string name="native_loc">Native</string>
+    <string name="video_gallery">Video Gallery</string>
+    <string name="gyansala_centers">Gyanshala Centres</string>
+    <string name="change_password">CHANGE PASSWORD</string>
+    <string name="city">City</string>
+    <string name="pincode">Pincode</string>
+    <string name="residential_address">Residential Address:</string>
+    <string name="office_address">Office Address:</string>
+
+</resources>

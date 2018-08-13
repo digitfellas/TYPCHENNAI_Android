@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ea3b3f</color>
+    <color name="colorPrimaryDark">#8f2325</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="light_black">#3f3e3e</color>
+    <color name="navigation_line_color">#cccccc</color>
+    <color name="navigation_drawer_item_default">#888888</color>
+
+    <color name="app_red_color">#ea3b3f</color>
+    <color name="app_base_color">#0D9F67</color>
+    <color name="app_title_color">#666666</color>
+    <color name="app_description_color">#919191</color>
+    <color name="blue">#1862db</color>
+    <color name="blue_text">#58ACFA</color>
+
+    <color name="navigation_drawer_item_selected">#208425</color>
+
+</resources>

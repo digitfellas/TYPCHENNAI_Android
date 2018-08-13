@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NavigationBarStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:listDivider">@color/navigation_line_color</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="ActionBarMaterialTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- By default, Material's Toolbar does not have a theme of its own.
+        But, we can set those properties. These values, when assigned to v7
+        AppCompat's toolbar would override all the settings provided in the
+        theme -->
+        <item name="colorPrimary">@color/app_red_color</item>
+        <item name="android:background">@color/app_red_color</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <!--<item name="searchIcon">@drawable/ic_search_white_36dp</item>
+        <item name="searchHintIcon">@drawable/ic_search_white_36dp</item>-->
+        <item name="searchViewStyle">@style/Theme.AppCompat</item>
+    </style>
+
+
+    <style name="EditextTheme" pparent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/app_description_color</item>
+        <item name="android:textSize">20sp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/app_description_color</item>
+        <item name="colorControlNormal">@color/app_description_color</item>
+        <item name="colorControlActivated">@color/app_base_color</item>
+    </style>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_nav_profile_picture"
+        android:layout_width="@dimen/padding_sixty"
+        android:layout_height="@dimen/padding_sixty"
+        android:layout_marginTop="@dimen/padding_thirteen"
+        android:layout_marginLeft="12.5dp"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <ImageView
+        android:id="@+id/iv_logout_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/padding_twenty"
+        android:layout_marginTop="@dimen/padding_thirty"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <com.digitfellas.typchennai.common.customtextview.LatoBoldTextview
+        android:id="@+id/tv_nav_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_nav_profile_picture"
+        android:layout_marginLeft="@dimen/padding_fifteen"
+        android:layout_marginTop="21.5dp"
+        android:text="martina"
+        android:textColor="@color/black"/>
+
+
+    <com.digitfellas.typchennai.common.customtextview.LatoBoldTextview
+        android:id="@+id/tv_nav_emailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_nav_name"
+        android:text="martina_joe@yahoo.com"
+        android:layout_marginLeft="@dimen/padding_fifteen"
+        android:layout_marginTop="@dimen/padding_eight"
+        android:textColor="@color/black"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_nav_emailid"
+        android:layout_marginTop="17dp" 
+        android:background="@color/navigation_line_color" />
+
+
+</RelativeLayout>
